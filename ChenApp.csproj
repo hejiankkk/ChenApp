@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChenApp.Data\ChenApp.Data.csproj" />
+    <ProjectReference Include="..\ChenApp.Infrastructure\ChenApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\ChenApp.Models\ChenApp.Models.csproj" />
+    <ProjectReference Include="..\ChenApp.Services\ChenApp.Services.csproj" />
+  </ItemGroup>
+
+</Project>
